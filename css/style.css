@@ -39,6 +39,13 @@
     animation: velhovamp-animation 1.5s infinite linear;
 }
 
+.velhovampdois {
+    position: absolute;
+    bottom: 120px;
+    width: 80px;
+    animation: velhovampdois-animation 1.5s infinite linear;
+}
+
 .saci {
     width: 150px;
     position: absolute;
@@ -57,6 +64,16 @@
 }
 
 @keyframes velhovamp-animation {
+    from {
+        right: -80px;
+    }
+
+    to {
+        right: 100%;
+    }
+}
+
+@keyframes velhovampdois-animation {
     from {
         right: -80px;
     }
@@ -88,6 +105,7 @@
         bottom: 0px;
     }
 }
+
 
 @keyframes nuvens-animation {
     from{

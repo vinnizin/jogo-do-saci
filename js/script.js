@@ -1,5 +1,6 @@
 const saci = document.querySelector('.saci');
 const velhovamp = document.querySelector('.velhovamp');
+const velhovampdois = document.querySelector('.velhovampdois');
 const nuvens = document.querySelector('.nuvens');
 
 const jump = () => {
@@ -9,6 +10,7 @@ const jump = () => {
         saci.classList.remove('jump')
     }, 500);
 }
+
 
 const loop = setInterval(() => {
 
