@@ -41,9 +41,9 @@
 
 .velhovampdois {
     position: absolute;
-    bottom: 120px;
+    bottom: 140px;
     width: 80px;
-    animation: velhovampdois-animation 1.5s infinite linear;
+    animation: velhovampdois-animation 6s infinite linear;
 }
 
 .saci {
@@ -57,6 +57,16 @@
     margin-top: 20px;
     position: absolute;
     animation: nuvens-animation 20s infinite linear;
+}
+
+.gameover {
+    width: 200px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right :auto;
+    margin: 20px;
+    position: absolute;
 }
 
 .jump {
